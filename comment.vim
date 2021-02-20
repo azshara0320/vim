@@ -254,7 +254,7 @@ vnoremap <SID>HighDoubleToggle :<C-U>call <SID>HighDoubleToggle()<CR>
 
 " Empty note
 if !hasmapto('<Plug>CommentEmptyNote')
-    imap <silent> <unique> <C-L>x <Plug>CommentEmptyNote
+    imap <silent> <unique> <Leader>ca <Plug>CommentEmptyNote
 endif
 
 inoremap <silent> <unique> <script> <Plug>CommentEmptyNote <SID>EmptyNote
